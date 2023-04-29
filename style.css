@@ -1,0 +1,39 @@
+.bg-image{
+ background-image: url("images/indian\ food\ 2.jpg");
+ height: 70vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ justify-content: center;
+ 
+}
+#form{
+  margin-top: 20rem;
+   position: absolute;   
+}
+
+@media only screen and (max-width: 600px) {
+  #india{
+    display: grid;
+    grid-column: none;
+  }
+}
+.scrolling{
+  background-color: white;
+}
+#first-card{
+  background-image: linear-gradient(to bottom right, #f02d72,#800baf);
+}
+#second-card{
+  background-image: linear-gradient(to bottom right, #511283,#7b0ab1) !important ;
+}
+#report:hover{
+  transform: scale(1.1);
+}
+#report{
+  transition: transform .5s;
+}
+#Hello{
+ 
+}
+
+

@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+    .col-5{
+        display: none;
+    }
+   .col #lg{
+     align-items: center;
+     width: 100% !important;
+   }
+   #zero{
+    flex-direction: column-reverse;
+   }
+   .growth{
+    text-align: center;
+    margin-top: 2rem;
+   }
+   .play{
+    width: 50%;
+    height: 70px;
+   }
+   #button{
+   margin-left: 20%;
+   }
+  h5{
+    text-align: center;
+  }
+  #anuj{
+   text-align: center !important;
+  }
+}
+hr{
+  width: 3%;
+  height: 5px;
+  border:  solid  !important;
+}
+.bg-primary{
+  background-color: #00d1e2 !important;
+}
+#last{
+  background-image: linear-gradient(to right, #00b2cd , #00d5e5, #00b2cd);
+}
+#button{
+  color:  #00d1e2;
+}
+@media only screen and (min-width: 992px) {
+  #button{
+    margin-left: 1%;
+  }
+  #cafe{
+    margin-right: 2rem;
+  }
+ #more{
+  width: 20% !important;
+  margin-right: 22rem !important;
+ }
+ #aro{
+  margin-left: 10rem ;
+ }
+}
+a{
+  text-decoration: none;
+}
